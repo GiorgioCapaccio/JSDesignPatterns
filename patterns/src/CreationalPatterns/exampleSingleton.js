@@ -1,5 +1,5 @@
 // Usage
-import MySingleton from "./singleton";
+import MySingleton from "./SingletonPattern";
 
 const singleA = new MySingleton();
 const singleB = new MySingleton();

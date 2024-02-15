@@ -1,4 +1,4 @@
-import basketModule from "./basketModule";
+import basketModule from "./BasketModule";
 
 basketModule.addItem({
     item: 'bread',
