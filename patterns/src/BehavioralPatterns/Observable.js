@@ -1,5 +1,5 @@
 // first implementation of the observer pattern (the simple one)
-export class Observable {
+class Observable {
     constructor() {
         this.observer = [];
     }
@@ -16,3 +16,5 @@ export class Observable {
         this.observer.forEach((observer) => observer(data));
     }
 }
+
+export default new Observable();
