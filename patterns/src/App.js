@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import ExampleObserverPattern from "./BehavioralPatterns/ExampleObserverPattern";
+import ExampleObserverPattern from "./BehavioralPatterns/ObserverPattern/ExampleObserverPattern";
 
 function App() {
   return (

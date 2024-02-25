@@ -7,8 +7,10 @@ const ExampleObserverPattern = () => {
     // we create before the function ...
     function toastify(data) {
         toast(data, {
+            position: "bottom-right",
             closeButton: false,
-            autoClose: 2000
+            autoClose: 2000,
+            className: "test-notification"
         });
     }
     const logger = (data) => {
