@@ -5,6 +5,7 @@ import Observable from "./Observable";
 const ExampleObserverPattern = () => {
 
     // we create before the function ...
+
     function toastify(data) {
         toast(data, {
             position: "bottom-right",
